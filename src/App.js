@@ -56,7 +56,7 @@ function App() {
 <div className="container my-3" >
 <Routes>
           <Route exact path="/about" element={<About mode = {mode}/>}>   
-   //It is good practice to use exact path instead of path(only)
+   {/* //It is good practice to use exact path instead of path(only) */}
           </Route>
 
           <Route exact path="/" element={<TextForm showAlert ={showAlert} heading = " Try TextUtils - word counter, character counter , remove extra spaces  " mode = {mode}/>}>
