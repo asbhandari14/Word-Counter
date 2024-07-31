@@ -51,7 +51,7 @@ function App() {
   <>
 <Router>
 
-<Navbar title = "WordCounter" aboutText='About' mode = {mode} toggleMode = {toggleMode} />
+<Navbar title = "TextUtils" aboutText='About' mode = {mode} toggleMode = {toggleMode} />
 <Alert alert= {alert}/>
 <div className="container my-3" >
 <Routes>
