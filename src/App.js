@@ -13,7 +13,7 @@ import {
 
 
 function App() {
-  const [mode, setMode] = useState('dark');           //Wheather dark mode is enabled or not 
+  const [mode, setMode] = useState('light');           //Wheather dark mode is enabled or not 
   const [alert, setAlert] = useState(null);
 
   const showAlert = (message, type) =>{
